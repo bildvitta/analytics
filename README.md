@@ -3,8 +3,8 @@ Quasar App Extension analytics
 
 Extensão para adicionar o google tag manager utilizando [@gtm-support/vue-gtm](https://github.com/gtm-support/vue-gtm/tree/main). Esta extensão funciona tanto para quasar v1 quanto quasar v2.
 
-- Quasar v1, utilizamos a seguinte versão: [@gtm-support/vue2-gtm](https://github.com/gtm-support/vue-gtm/tree/vue2-gtm)
-- Quasar v2, utilizamos a seguinte versão: [@gtm-support/vue-gtm](https://github.com/gtm-support/vue-gtm/tree/main)
+- Quasar v1, utilizamos a seguinte versão: [@gtm-support/vue2-gtm](https://github.com/gtm-support/vue-gtm/tree/vue2-gtm).
+- Quasar v2, utilizamos a seguinte versão: [@gtm-support/vue-gtm](https://github.com/gtm-support/vue-gtm/tree/main).
 
 # Instalação
 ```bash
@@ -37,7 +37,7 @@ module.exports = {
 ## Compatibilidade
 - [x] Quasar v1
 - [x] Quasar v2
-- [x] webpack
+- [x] Webpack
 - [ ] Vite
 
 # Doar
