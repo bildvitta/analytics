@@ -11,6 +11,10 @@ Extensão para adicionar o google tag manager utilizando [@gtm-support/vue-gtm](
 quasar ext add @bildvitta/analytics
 ```
 
+# Requisitos
+- Quasar v1 ou Quasar v2 (ambos com webpack).
+- Conta no Google Tag Manager para enviar os dados.
+
 Após a instalação, vai ser criado um arquivo `analytics.config.js`, nele vai vir as seguintes informações:
 
 ```js
@@ -35,10 +39,9 @@ module.exports = {
 > Obs: a variável global `this.$gtm`está disponível na aplicação da mesma forma como se estivesse instalado `@gtm-support/vue-gtm` manualmente.
 
 # Compatibilidade
-- [x] Quasar v1
-- [x] Quasar v2
-- [x] Webpack
-- [ ] Vite
+- [x] Quasar v1 Webpack
+- [x] Quasar v2 Webpack
+- [ ] Quasar v2 Vite
 
 # Desinstalação
 ```bash

@@ -1,6 +1,6 @@
 {
   "name": "@bildvitta/quasar-app-extension-analytics",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "description": "App extension for google tag manager",
   "author": "Douglas Calora <douglascalora123@gmail.com>",
   "license": "MIT",
