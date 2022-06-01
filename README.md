@@ -30,14 +30,15 @@ module.exports = {
 
 É neste arquivo que conseguiremos passar as configurações para a biblioteca do `@gtm-support/vue-gtm`.
 
-**IMPORTANTE:** Se estiver utilizando o `Quasar v2`, você **precisa** adicionar a variável de ambiente `ANALYTICS_KEY` dentro de `quasar.config.js` (https://quasar.dev/quasar-cli-vite/handling-process-env#introduction), senão vai ser disparada uma exceção na aplicação fazendo com que ela pare de funcionar.
+> **IMPORTANTE:** Se estiver utilizando o `Quasar v2`, você **precisa** adicionar a variável de ambiente `ANALYTICS_KEY` dentro de `quasar.config.js` (https://quasar.dev/quasar-cli-vite/handling-process-env#introduction), senão vai ser disparada uma exceção na aplicação fazendo com que ela pare de funcionar.
 
+> Obs: a variável global `this.$gtm`está disponível na aplicação da mesma forma como se estivesse instalado `@gtm-support/vue-gtm` manualmente.
 
 ## Compatibilidade
 - [x] Quasar v1
 - [x] Quasar v2
 - [x] webpack
-- [ ] vite
+- [ ] Vite
 
 # Doar
 Se você aprecia o trabalho realizado nesta extensão de aplicativo, considere [donating to Quasar](https://donate.quasar.dev).
