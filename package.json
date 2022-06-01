@@ -19,6 +19,10 @@
     "type": "git",
     "url": "https://github.com/bildvitta/analytics"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "bugs": "",
   "homepage": "https://github.com/bildvitta/analytics",
   "engines": {
