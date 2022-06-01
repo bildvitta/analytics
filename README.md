@@ -32,5 +32,12 @@ module.exports = {
 
 **IMPORTANTE:** Se estiver utilizando o `Quasar v2`, você **precisa** adicionar a variável de ambiente `ANALYTICS_KEY` dentro de `quasar.config.js` (https://quasar.dev/quasar-cli-vite/handling-process-env#introduction), senão vai ser disparada uma exceção na aplicação fazendo com que ela pare de funcionar.
 
+
+## Compatibilidade
+- [x] Quasar v1
+- [x] Quasar v2
+- [x] webpack
+- [ ] vite
+
 # Doar
 Se você aprecia o trabalho realizado nesta extensão de aplicativo, considere [donating to Quasar](https://donate.quasar.dev).
