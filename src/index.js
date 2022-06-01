@@ -7,16 +7,9 @@
  */
 
 module.exports = function (api) {
-  const analyticsPath = 'analytics.conf.js'
+  const analyticsPath = 'analytics.config.js'
 
   api.extendQuasarConf(quasar => {
-    const { id } = require(api.resolve.app(analyticsPath))
-
-    console.log(require(api.resolve.app(analyticsPath)), '>>>> id')
-    console.log(api.ctx)
-
-    // if (!id) return
-
     const isLatesQuasar = api.hasPackage('quasar', '^2.0.0')
 
     quasar.boot.push(

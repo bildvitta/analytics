@@ -1,36 +1,36 @@
 Quasar App Extension analytics
 ===
 
-_Be sure to change this readme as appropriate for your app extension._
+Extensão para adicionar o google tag manager utilizando [@gtm-support/vue-gtm](https://github.com/gtm-support/vue-gtm/tree/main). Esta extensão funciona tanto para quasar v1 quanto quasar v2.
 
-_Think about the organization of this file and how the information will be beneficial to the user._
+- Quasar v1, utilizamos a seguinte versão: [@gtm-support/vue2-gtm](https://github.com/gtm-support/vue-gtm/tree/vue2-gtm)
+- Quasar v2, utilizamos a seguinte versão: [@gtm-support/vue-gtm](https://github.com/gtm-support/vue-gtm/tree/main)
 
-> Add a short description of your App Extension. What does it do? How is it beneficial? Why would someone want to use it?
-
-A Quasar Project
-
-# Install
+# Instalação
 ```bash
 quasar ext add analytics
 ```
-Quasar CLI will retrieve it from the NPM registry and install the extension to your project.
 
+Após a instalação, vai ser criado um arquivo `analytics.config.js`, nele vai vir as seguintes informações:
 
-## Prompts
-
-> Explain the prompts here
-
-
-# Uninstall
-```bash
-quasar ext remove analytics
+```js
+/**
+ * Se estiver utilizando esta extensão com quasar v2:
+ * https://github.com/gtm-support/vue-gtm/tree/main
+ *
+ * Caso esteja utilizando esta extensão com quasar v1:
+ * https://github.com/gtm-support/vue-gtm/tree/vue2-gtm
+ *
+ * OBS: A configuração do "vueRouter: router" já é feita automaticamente pela extensão.
+ */
+module.exports = {
+  id: process.env.ANALYTICS_KEY
+}
 ```
 
-# Info
-> Add longer information here that will help the user of your app extension.
+É neste arquivo que conseguiremos passar as configurações para a biblioteca do `@gtm-support/vue-gtm`.
 
-# Other Info
-> Add other information that's not as important to know
+**IMPORTANTE:** Se estiver utilizando o `Quasar v2`, você **precisa** adicionar a variável de ambiente `ANALYTICS_KEY` dentro de `quasar.config.js` (https://quasar.dev/quasar-cli-vite/handling-process-env#introduction), senão vai ser disparada uma exceção na aplicação fazendo com que ela pare de funcionar.
 
-# Donate
-If you appreciate the work that went into this App Extension, please consider [donating to Quasar](https://donate.quasar.dev).
+# Doar
+Se você aprecia o trabalho realizado nesta extensão de aplicativo, considere [donating to Quasar](https://donate.quasar.dev).

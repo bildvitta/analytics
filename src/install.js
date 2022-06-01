@@ -4,7 +4,7 @@ module.exports = function (api) {
   // adicionar arquivo de configuração de variareis sass ao projeto.
   api.renderFile(
     // caminho do arquivo importado
-    './templates/analytics.conf.js',
-    'analytics.conf.js'
+    './templates/analytics.config.js',
+    'analytics.config.js'
   )
 }
