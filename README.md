@@ -1,4 +1,4 @@
-Quasar App Extension analytics
+Quasar App Extension Analytics
 ===
 
 Extensão para adicionar o google tag manager utilizando [@gtm-support/vue-gtm](https://github.com/gtm-support/vue-gtm/tree/main). Esta extensão funciona tanto para quasar v1 quanto quasar v2.
