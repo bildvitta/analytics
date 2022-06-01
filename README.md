@@ -41,4 +41,4 @@ module.exports = {
 - [ ] Vite
 
 # Doar
-Se você aprecia o trabalho realizado nesta extensão de aplicativo, considere [donating to Quasar](https://donate.quasar.dev).
+Se você aprecia o trabalho realizado nesta extensão de aplicativo, considere [doar para o Quasar](https://donate.quasar.dev).
