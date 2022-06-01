@@ -1,19 +1,26 @@
 {
   "name": "@bildvitta/quasar-app-extension-analytics",
-  "version": "1.0.0-beta.1",
-  "description": "A Quasar Project",
+  "version": "1.0.0-beta.0",
+  "description": "App extension for google tag manager",
   "author": "Douglas Calora <douglascalora123@gmail.com>",
   "license": "MIT",
   "main": "src/index.js",
+  "keywords": [
+    "google tag manager",
+    "google analytics",
+    "gtm",
+    "quasar gtm",
+    "quasar analytics"
+  ],
   "scripts": {
     "test": "echo \"No test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/bildvitta/analytics"
   },
   "bugs": "",
-  "homepage": "",
+  "homepage": "https://github.com/bildvitta/analytics",
   "engines": {
     "node": ">= 12.2.0",
     "npm": ">= 5.6.0",
