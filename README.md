@@ -21,6 +21,12 @@ quasar ext add @bildvitta/analytics
 npm i vue-router@3
 ```
 
+Para o quasar 2:
+
+```bash
+npm i vue-router@4
+```
+
 Após a instalação, vai ser criado um arquivo `analytics.config.js`, nele vai vir as seguintes informações:
 
 ```js
