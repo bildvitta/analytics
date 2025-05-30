@@ -7,7 +7,7 @@ Extensão para adicionar o google tag manager utilizando [@gtm-support/vue-gtm](
 - Quasar v2, utilizamos a seguinte versão: [@gtm-support/vue-gtm](https://github.com/gtm-support/vue-gtm/tree/main).
 
 # Requisitos
-- Quasar v1 ou Quasar v2 app-vite v2.
+- Quasar v2 app-vite v2.
 - Conta no Google Tag Manager para enviar os dados.
 
 # Instalação
