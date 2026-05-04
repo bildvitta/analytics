@@ -1,10 +1,13 @@
 import config from 'analytics'
+import { setGtmInstance } from './use-gtm'
 
-export default (VueGtm, { application, errorMessage, router }) => {
+export default (createGtm, { application, errorMessage, router }) => {
   if (!config.id) return
 
   try {
-    application.use(VueGtm, { ...config, vueRouter: router })
+    console.log('to linkado')
+    application.use(createGtm({ ...config, debug: true, vueRouter: router }))
+    setGtmInstance(application.config.globalProperties.$gtm)
   } catch {
     console.error(errorMessage)
   }
