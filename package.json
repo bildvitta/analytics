@@ -5,6 +5,13 @@
   "author": "Douglas Calora <douglascalora123@gmail.com>",
   "license": "MIT",
   "main": "src/index.js",
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "import": "./src/composables/index.js"
+    },
+    "./src/*": "./src/*"
+  },
   "keywords": [
     "google tag manager",
     "google analytics",
