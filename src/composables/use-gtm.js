@@ -1,16 +1,12 @@
-let gtmInstance = null
+let gtm = null
 
 export default function useGtm () {
   function setGtmInstance (instance) {
-    gtmInstance = instance
-  }
-
-  function getGtmInstance () {
-    return gtmInstance
+    gtm = instance
   }
 
   return {
     setGtmInstance,
-    getGtmInstance
+    gtm
   }
 }
