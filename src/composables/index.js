@@ -1,0 +1,1 @@
+export { default as useGtm } from './use-gtm'

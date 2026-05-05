@@ -10,11 +10,7 @@ module.exports = function (api) {
   const analyticsPath = 'analytics.config.js'
 
   api.extendQuasarConf(quasar => {
-    const isLatesQuasar = api.hasPackage('quasar', '^2.0.0')
-
-    quasar.boot.push(
-      `~@bildvitta/quasar-app-extension-analytics/src/boot/${isLatesQuasar ? 'gtm-v3' : 'gtm-v2'}.js`
-    )
+    quasar.boot.push('~@bildvitta/quasar-app-extension-analytics/src/boot/gtm.js')
 
     // Transpile dependencies
     quasar.build.transpileDependencies.push(/quasar-app-extension-hub[\\/]src[\\/]boot/)
