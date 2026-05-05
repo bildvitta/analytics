@@ -9,7 +9,7 @@ export default async ({ router, app }) => {
   try {
     const { setGtmInstance } = useGtm()
 
-    app.use(createGtm({ ...config, debug: true, vueRouter: router }))
+    app.use(createGtm({ ...config, vueRouter: router }))
 
     setGtmInstance(app.config.globalProperties.$gtm)
   } catch {

@@ -1,6 +1,6 @@
 {
   "name": "@bildvitta/quasar-app-extension-analytics",
-  "version": "1.1.0-alpha.2",
+  "version": "1.1.0-alpha.3",
   "description": "App extension for google tag manager",
   "author": "Douglas Calora <douglascalora123@gmail.com>",
   "license": "MIT",
@@ -8,7 +8,7 @@
   "exports": {
     ".": {
       "require": "./src/index.js",
-      "import": "./src/*"
+      "import": "./src/analytics.js"
     },
     "./src/*": "./src/*"
   },
