@@ -50,11 +50,6 @@ module.exports = {
 
 > Obs: a variável global `this.$gtm`está disponível na aplicação da mesma forma como se estivesse instalado `@gtm-support/vue-gtm` manualmente.
 
-# Compatibilidade
-- [x] Quasar v1 Webpack
-- [x] Quasar v2 Webpack
-- [ ] Quasar v2 Vite
-
 # Desinstalação
 ```bash
 quasar ext remove @bildvitta/analytics

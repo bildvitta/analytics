@@ -9,6 +9,7 @@ export default async ({ router, app }) => {
   try {
     const { setGtmInstance } = useGtm()
 
+    // pq não ter a config? se eu quiser passar alguma config a mais pro analytics, removendo este arquivo não tem como
     app.use(createGtm({ ...config, vueRouter: router }))
 
     setGtmInstance(app.config.globalProperties.$gtm)

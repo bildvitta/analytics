@@ -1,4 +1,4 @@
-module.exports = function (api) {
+export default function (api) {
   api.onExitLog('A extensão ANALYTICS foi instalada. 🥰')
 
   // adicionar arquivo de configuração ao projeto.
