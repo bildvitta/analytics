@@ -14,4 +14,10 @@ export default function (api) {
 
     quasar.boot.push('~@bildvitta/quasar-app-extension-analytics/src/boot/gtm.js')
   })
+
+  api.extendViteConf(viteConf => {
+    viteConf.resolve = viteConf.resolve || {}
+    viteConf.resolve.alias = viteConf.resolve.alias || {}
+    viteConf.resolve.alias['analytics'] = api.resolve.app('analytics.config.js')
+  })
 }

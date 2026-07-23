@@ -7,6 +7,6 @@
  *
  * OBS: A configuração do "vueRouter: router" já é feita automaticamente pela extensão.
  */
-module.exports = {
+export default {
   id: process.env.ANALYTICS_KEY
 }
