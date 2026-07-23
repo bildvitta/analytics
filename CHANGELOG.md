@@ -11,6 +11,9 @@ Podemos ter pequenas breaking changes sem alterar o `major` version, apesar de s
 ### Adicionado
 - Adicionado o composable `useGtm` na v2.
 
+### Modificado
+- Modificado o pacote para `@appnave/quasar-app-extension-analytics`.
+
 ## [2.0.0-beta.0] - 30-05-2025
 ### Adicionado
 - Adicionado suporte do vite quasar-app-vite v2.

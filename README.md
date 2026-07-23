@@ -9,7 +9,7 @@ Extensão para adicionar o Google Tag Manager utilizando [@gtm-support/vue-gtm](
 
 # Instalação
 ```bash
-quasar ext add @bildvitta/analytics
+quasar ext add @appnave/analytics
 ```
 
 > A variável global `this.$gtm` está disponível na aplicação da mesma forma que ao instalar `@gtm-support/vue-gtm` manualmente.
@@ -44,14 +44,14 @@ Quando `true`, habilita logs do GTM no console do browser, como:
 A extensão também exporta o composable `useGtm`, que permite acessar a instância do GTM em qualquer lugar da aplicação:
 
 ```js
-import { useGtm } from '@bildvitta/quasar-app-extension-analytics'
+import { useGtm } from '@appnave/quasar-app-extension-analytics'
 
 const { gtm } = useGtm()
 ```
 
 # Desinstalação
 ```bash
-quasar ext remove @bildvitta/analytics
+quasar ext remove @appnave/analytics
 ```
 
 # Doar
