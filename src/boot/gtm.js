@@ -1,16 +1,17 @@
 import { useGtm } from '../composables'
 
 import { createGtm } from '@gtm-support/vue-gtm'
-import config from 'analytics'
 
-export default async ({ router, app }) => {
-  if (!config.id) return
-
+export default ({ router, app }) => {
+  const id = process.env.ANALYTICS_KEY
+  
+  if (!id) return
+  
   try {
     const { setGtmInstance } = useGtm()
+    const hasDebug = process.env.DEBUGGING || false
 
-    // pq não ter a config? se eu quiser passar alguma config a mais pro analytics, removendo este arquivo não tem como
-    app.use(createGtm({ ...config, vueRouter: router }))
+    app.use(createGtm({ id, debug: hasDebug, vueRouter: router }))
 
     setGtmInstance(app.config.globalProperties.$gtm)
   } catch {

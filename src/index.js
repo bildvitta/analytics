@@ -18,6 +18,5 @@ export default function (api) {
   api.extendViteConf(viteConf => {
     viteConf.resolve = viteConf.resolve || {}
     viteConf.resolve.alias = viteConf.resolve.alias || {}
-    viteConf.resolve.alias['analytics'] = api.resolve.app('analytics.config.js')
   })
 }
