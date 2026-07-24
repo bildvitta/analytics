@@ -1,10 +1,17 @@
 {
   "name": "@bildvitta/quasar-app-extension-analytics",
-  "version": "2.0.0-beta.0",
+  "version": "2.0.0-beta.0-alpha.0",
   "description": "App extension for google tag manager",
   "author": "Douglas Calora <douglascalora123@gmail.com>",
   "license": "MIT",
   "main": "src/index.js",
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "import": "./src/analytics.js"
+    },
+    "./src/*": "./src/*"
+  },
   "keywords": [
     "google tag manager",
     "google analytics",
@@ -32,6 +39,6 @@
     "yarn": ">= 1.21.1"
   },
   "dependencies": {
-    "@gtm-support/vue-gtm": "^3.1.0"
+    "@gtm-support/vue-gtm": "^3.2.0"
   }
 }

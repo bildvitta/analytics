@@ -7,6 +7,9 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Sobre os "BREAKING CHANGES"
 Podemos ter pequenas breaking changes sem alterar o `major` version, apesar de serem pequenas, podem alterar o comportamento da funcionalidade caso não seja feita uma atualização, **preste muita atenção** nas breaking changes dentro das versões quando existirem.
 
+## [2.0.0] - 24-07-2026
+## Versão estável lançada.
+
 ## [2.0.0-beta.0] - 30-05-2025
 ## BREAKING CHANGES
 - Dropado suporte para quasar v1 e quasar v2 com webpack.
@@ -20,6 +23,16 @@ Podemos ter pequenas breaking changes sem alterar o `major` version, apesar de s
 
 ### Removido
 - Removido arquivo de configuração "analytics.config.js"
+
+## [1.1.0-beta.0] - 05-05-2026
+## BREAKING CHANGES
+- Removido suporte ao vue2-gtm.
+
+### Adicionado
+- Adicionado composable `useGtm` para ser utilizado em arquivos em composition, mantendo a mesma instância setada no application.
+
+### Removido
+- Removido suporte ao vue2-gtm.
 
 ## [1.0.0] - 02-06-2022
 ## Versão estável lançada.
