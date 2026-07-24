@@ -7,6 +7,13 @@ e este projeto adere ao [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Sobre os "BREAKING CHANGES"
 Podemos ter pequenas breaking changes sem alterar o `major` version, apesar de serem pequenas, podem alterar o comportamento da funcionalidade caso não seja feita uma atualização, **preste muita atenção** nas breaking changes dentro das versões quando existirem.
 
+## [2.1.0-beta.0]
+### Adicionado
+- Adicionado suporte à variável de ambiente `DEBUGGING` para controlar o modo debug do GTM.
+
+### Modificado
+- Modificado o pacote para `@appnave/quasar-app-extension-analytics`.
+
 ## [2.0.0] - 24-07-2026
 ## Versão estável lançada.
 
