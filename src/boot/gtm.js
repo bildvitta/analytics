@@ -9,9 +9,10 @@ export default ({ router, app }) => {
 
   try {
     const { setGtmInstance } = useGtm()
+    const hasDebug = process.env.DEBUGGING || false
 
     app.use(
-      createGtm({ id, vueRouter: router })
+      createGtm({ id, debug: hasDebug, vueRouter: router })
     )
 
     setGtmInstance(app.config.globalProperties.$gtm)
