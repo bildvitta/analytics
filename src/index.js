@@ -7,7 +7,7 @@
  */
 export default function (api) {
   api.extendQuasarConf(quasar => {
-    api.compatibleWith('@quasar/app-vite', '^2.0.0')
+    api.compatibleWith('@quasar/app-vite', '^3.2.0')
     api.compatibleWith('quasar', '^2.0.0')
 
     console.log('Installing Quasar App Extension Analytics...')
