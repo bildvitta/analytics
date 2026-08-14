@@ -1,6 +1,6 @@
 {
   "name": "@appnave/quasar-app-extension-analytics",
-  "version": "2.1.0-beta.1-alpha.2",
+  "version": "2.1.0-beta.1",
   "description": "App extension for google tag manager",
   "author": "Douglas Calora <douglascalora123@gmail.com>",
   "license": "MIT",
